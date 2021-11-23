@@ -1,0 +1,101 @@
+/* custom css start */
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-1325 {
+    display: none !important;
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children.menu-item-1311 {
+    display: none !important;
+}
+
+.nd_booking_tooltip_jquery {
+	display: none !important;
+}
+
+.nd_options_navigation_type .menu li.nd_options_best_label > a::after {
+	display: none !important;
+}
+
+#nd_booking_single_cpt_1_basic_info_week_price {
+	display: none !important;
+}
+
+.vc_row.wpb_row.vc_row-fluid.nd_booking_overflow_visible_important.vc_custom_1499872003121.vc_row-has-fill {
+	display: none !important;
+}
+
+.phone_support {
+	color:#fff !important;
+}
+
+.ph_no {
+	color:#fff !important;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+    margin-top: 10px;
+	  color: #fff;
+}
+
+.newsletter input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email {
+    background-color: #151515;
+/*     color: #878787 !important; */
+	border: unset !important;
+}
+
+.newsletter input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    background-color: #6b6978;
+    font-weight: bold;
+		padding: 10px 20px !important;
+}
+
+.newsletter form.wpcf7-form.init {
+    padding-top: 10px;
+}
+
+.newsletter_form {
+    display: flex;
+}
+
+
+@media screen and (max-width:1024px) {
+	.newsletter_form {
+    display: block;
+}
+	
+}
+
+@media screen and (max-width:992px) {
+	.newsletter input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email {
+    padding: 10px !important;
+}
+	
+}
+
+@media screen and (max-width:767px) {
+	.phone_support {
+	text-align:center;
+}
+
+.ph_no {
+	text-align:center;
+}
+	
+	.hours_day {
+		text-align:center;
+}
+	.faicon {
+    text-align: center;
+}
+	.newsletter_form {
+   text-align:center;
+}
+	.footer_cls {
+		padding-top: 15px;
+    padding-bottom: 15px;
+	}
+}
+
+/* custom css end */
